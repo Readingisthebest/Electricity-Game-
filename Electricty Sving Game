@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<font color="navy">ELECTRICITY GAME! Created by Praveena George</font> 
+<font color="navy">ELECTRICITY GAME QUIZ! Created by Praveena George</font> 
+
+<h2>The Electricity Quiz Game </h2>
+<button type="button" onclick="alert('Hello world! This is the Electricity Game Quiz! Let's get started!')">Click Me!</button>
+ 
+
+playername = input("what is your name?")
+
+print("hello" +playername)
+
+
+yesno = input ("do you save electricity?")
+
+if yesno == "yes":
+	print("good. you are supposed to save the world. you are doing a great job.")
+
+if yesno == "no":
+	print ("you are crazy! you are supposed to save elctricity.")
+
+if yesno == "no":
+	while 5==5:
+		print("bad! save it! you can save the earth.")
+
+yesno2 = input ("Do you turn the lights off when you leave a room?")
+
+if yesno2 == "yes":
+	print("Great, thats what you are supposed to do")
+
+if yesno2 == "no":
+	print ("what?! you are supposed to conserve energy even when nobody is not there in the room.")
+
+if yesno2 == "no":
+	while 5==5:
+		print("bad! save the energy! you can make an impact!")
+
+input()
+
+
+
 </head>
 </html>
